@@ -1,0 +1,180 @@
+.design {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 500px;
+
+  font-family: monospace;
+  font-size: 16px;
+  position: relative;
+
+  .menu {
+    .about {
+      position: absolute;
+      top: 350px;
+      left: 90%;
+      width: 80px;
+      height: 40px;
+      background-color: rgba(129, 128, 128, 0.8);
+      color: #ffffff;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      opacity: 90;
+      transition: opacity 0.3s ease-in-out;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+    .works {
+      position: absolute;
+      top: 400px;
+      left: 90%;
+      width: 80px;
+      height: 40px;
+      background-color: rgba(129, 128, 128, 0.8);
+      color: #ffffff;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      opacity: 90;
+      transition: opacity 0.3s ease-in-out;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    .contact {
+      position: absolute;
+      top: 450px;
+      left: 90%;
+      width: 80px;
+      height: 40px;
+      background-color: rgba(129, 128, 128, 0.8);
+      color: #ffffff;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      opacity: 90;
+      transition: opacity 0.3s ease-in-out;
+
+      &:hover {
+        opacity: 0;
+      }
+    }
+  }
+}
+
+.mid {
+  display: absolute;
+  justify-content: left;
+  align-items: left;
+  height: 1100px;
+
+  .mid_pic {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+  }
+}
+
+.bottom {
+  display: absolute;
+  justify-content: left;
+  align-items: left;
+
+  .bottom_video01 {
+    position: absolute;
+    top: 1600px;
+    left: 3%;
+    height: 1600px;
+  }
+
+  .bottom_intro01 {
+    position: absolute;
+    top: 2010px;
+    left: 3%;
+    margin: 10px;
+    height: 500px;
+  }
+
+  .bottom_video02 {
+    position: absolute;
+    top: 1600px;
+    left: 50%;
+    height: 500px;
+  }
+
+  .bottom_intro02 {
+    position: absolute;
+    top: 2010px;
+    left: 50%;
+    margin: 10px;
+    height: 500px;
+  }
+}
+
+.footer {
+  display: flex;
+  height: 100px;
+  position: absolute;
+  top: 3000px;
+  left: 80%;
+  filter: grayscale(1);
+  justify-content: center;
+  align-items: center;
+  #yt {
+    display: flex;
+    position: relative;
+    right: 80px;
+  }
+  #e-mail {
+    display: flex;
+    position: relative;
+    right: 60px;
+  }
+
+  #fb {
+    display: flex;
+    position: relative;
+    right: 40px;
+  }
+
+  #soundcloud {
+    display: flex;
+    position: relative;
+    right: 20px;
+  }
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100%;
+  right: 30px;
+}
+HTML CSSResult Skip Results Iframe EDIT ON a {
+  text-decoration: none;
+}
+a:link {
+  color: #000;
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #010101;
+  background-color: red;
+}
+a:hover {
+  text-decoration: none;
+  background-color: #fafafa;
+  color: rgb(77, 77, 77);
+}
+a:active {
+  text-decoration: none;
+  background-color: gray;
+  color: #fafafa;
+}
